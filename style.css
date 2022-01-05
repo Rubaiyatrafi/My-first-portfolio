@@ -8,9 +8,9 @@ h1 {
 .blue-color {
   color: rgb(46, 34, 211);
 }
-section {
+.flexiable-container {
   display: flex;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 .half-width {
   width: 50%;
@@ -39,4 +39,28 @@ section {
   background-repeat: no-repeat;
   background-position: right;
   padding-left: 20px;
+}
+.experiance-area {
+  background-image: url(pictures/New\ Project-2.png);
+}
+.experiance-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  padding-left: 5px;
+  border-radius: 10px;
+}
+#web-dev-experiance {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue cyan);
+  border-image-slice: 1;
+}
+#full-stack-developer {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(14, 14, 238) rgb(9, 99, 99));
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
