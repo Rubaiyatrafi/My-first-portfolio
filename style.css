@@ -10,13 +10,14 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 80px;
 }
 .half-width {
   width: 50%;
   padding-left: 5%;
 }
 .half-width img {
-  width: 110%;
+  width: 40%;
   padding-right: 15%;
   padding-top: 5%;
   background-color: white;
@@ -32,4 +33,10 @@ section {
 .top-banner {
   background-image: url(Pictures/New\ Project-2.png);
   background-repeat: no-repeat;
+}
+.Dream-Big {
+  background-image: url(pictures/top-banner.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-left: 20px;
 }
